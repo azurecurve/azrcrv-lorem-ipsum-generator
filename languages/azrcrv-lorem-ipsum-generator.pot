@@ -1,0 +1,119 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Lorem Ipsum Generator\n"
+"POT-Creation-Date: 2026-03-22 00:00+0000\n"
+"PO-Revision-Date: 2026-03-22 00:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: translate@azurecurve.co.uk\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__;esc_html_e\n"
+"X-Poedit-SearchPath-0: azrcrv-lorem-ipsum-generator.php\n"
+
+msgid "To generate lorem ipsum text, set your options and click the generate button."
+msgstr ""
+
+msgid "Number of Words"
+msgstr ""
+
+msgid "Number of Paragraphs"
+msgstr ""
+
+msgid "Settings"
+msgstr ""
+
+msgid "Lorem Ipsum Generator Settings"
+msgstr ""
+
+msgid "Lorem Ipsum Generator"
+msgstr ""
+
+msgid "Settings have been saved."
+msgstr ""
+
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+msgid "You do not have permissions to perform this action"
+msgstr ""
+
+msgid "Lorem Ipsum Options"
+msgstr ""
+
+msgid "Lorem Ipsum"
+msgstr ""
+
+msgid "Start with \"Lorem ipsum dolor sit amet\""
+msgstr ""
+
+msgid "Default Number of Words"
+msgstr ""
+
+msgid "Maximum Number of Words"
+msgstr ""
+
+msgid "Default Number of Paragraphs"
+msgstr ""
+
+msgid "Maximum Number of Paragraphs"
+msgstr ""
+
+msgid "Text Options"
+msgstr ""
+
+msgid "Text"
+msgstr ""
+
+msgid "Before Text"
+msgstr ""
+
+msgid "After Text"
+msgstr ""
+
+msgid "Labels"
+msgstr ""
+
+msgid "Word Count Label"
+msgstr ""
+
+msgid "Paragraph Count Label"
+msgstr ""
+
+msgid "Shortcode Usage"
+msgstr ""
+
+msgid "Other Plugins"
+msgstr ""
+
+msgid "Save Settings"
+msgstr ""
+
+msgid "Lorem Ipsum Generator form cannot be displayed; an id must be provided."
+msgstr ""
+
+msgid "Lorem ipsum text could not be generated."
+msgstr ""
+
+msgid "There was an error processing your request. Wait a moment and try again."
+msgstr ""
+
+msgid "Lorem ipsum text generated successfully."
+msgstr ""
+
+msgid "Your lorem ipsum text"
+msgstr ""
+
+msgid "Your lorem ipsum paragraphs"
+msgstr ""
+
+msgid "Copy paragraph"
+msgstr ""
+
+msgid "Generate"
+msgstr ""

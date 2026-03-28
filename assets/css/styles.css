@@ -1,0 +1,190 @@
+/* ==========================================================================
+   Strong Password Generator — frontend styles
+   ========================================================================== */
+
+/* Outer wrapper
+   ========================================================================== */
+.azrcrv-lig-form {
+	max-width: 640px;
+	margin: 0 0 1.5em;
+	font-size: 0.95em;
+}
+
+
+/* Notices (success / error)
+   ========================================================================== */
+.azrcrv-lig-notice {
+	padding: 0.65em 1em;
+	margin-bottom: 1em;
+	border-left: 4px solid transparent;
+	border-radius: 2px;
+	font-size: 0.9em;
+}
+
+.azrcrv-lig-notice--error {
+	border-left-color: #cc1818;
+	background-color: #fdf2f2;
+	color: #7a1010;
+}
+
+.azrcrv-lig-notice--success {
+	border-left-color: #46b450;
+	background-color: #f0f9f0;
+	color: #1a5c1e;
+}
+
+
+/* Password results
+   ========================================================================== */
+.azrcrv-lig-paragraph {
+	margin-bottom: 1.5em;
+	padding: 1em 1.25em;
+	background: #f7f7f7;
+	border: 1px solid #ddd;
+	border-radius: 3px;
+}
+
+.azrcrv-lig-paragraph-header {
+	margin: 0 0 0.75em;
+	font-size: 0.85em;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 0.04em;
+	color: #555;
+}
+
+.azrcrv-lig-paragraph-row {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0.1em 0;
+}
+
+.azrcrv-lig-paragraph-row:last-of-type {
+	border-bottom: none;
+}
+
+.azrcrv-lig-paragraph-text {
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 1.05em;
+	letter-spacing: 0.05em;
+	color: #1a1a1a;
+	flex: 1;
+	padding-right: 1em;
+}
+
+.azrcrv-lig-copy-btn {
+	flex-shrink: 0;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 2em;
+	height: 2em;
+	padding: 0;
+	background: #fff;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	cursor: pointer;
+	font-size: 1em;
+	line-height: 1;
+	transition: border-color 0.15s, background 0.15s;
+}
+
+.azrcrv-lig-copy-btn:hover {
+	border-color: #999;
+	background: #f0f0f0;
+}
+
+.azrcrv-lig-copy-btn--copied {
+	border-color: #46b450;
+	background: #f0f9f0;
+	color: #46b450;
+}
+
+
+/* Form fields
+   ========================================================================== */
+.azrcrv-lig-fields {
+	display: flex;
+	flex-direction: column;
+	gap: 0.75em;
+	margin-bottom: 1.25em;
+}
+
+.azrcrv-lig-field {
+	display: flex;
+	align-items: baseline;
+	gap: 1em;
+}
+
+.azrcrv-lig-field__label {
+	flex: 0 0 160px;
+	font-weight: 600;
+	font-size: 0.9em;
+	color: #333;
+}
+
+.azrcrv-lig-field__input {
+	flex: 1;
+	display: flex;
+	align-items: center;
+	gap: 0.75em;
+	flex-wrap: wrap;
+}
+
+.azrcrv-lig-field__input input[type="number"] {
+	width: 5em;
+}
+
+.azrcrv-lig-field__checkbox-label {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.35em;
+	font-size: 0.9em;
+	white-space: nowrap;
+	cursor: pointer;
+}
+
+.azrcrv-lig-field__charset {
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 0.9em;
+	width: 100%;
+	max-width: 260px;
+}
+
+
+/* Text before / after
+   ========================================================================== */
+.azrcrv-lig-text {
+	margin: 0 0 1em;
+	font-size: 0.9em;
+	color: #555;
+}
+
+
+/* Submit action row
+   ========================================================================== */
+.azrcrv-lig-actions {
+	margin-top: 0.5em;
+}
+
+
+/* Responsive — narrow viewports
+   ========================================================================== */
+@media ( max-width: 480px ) {
+
+	.azrcrv-lig-field {
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 0.25em;
+	}
+
+	.azrcrv-lig-field__label {
+		flex: none;
+	}
+
+	.azrcrv-lig-field__charset {
+		max-width: 100%;
+	}
+
+}
